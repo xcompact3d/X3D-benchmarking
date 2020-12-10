@@ -4,9 +4,9 @@ This repository is intended to collect publicly available benchmarking data from
 group, it will also standardise the run setup and collection of data for future benchmarks.
 
 There are three main files in the repository:
-- [input.i3d][./input.i3d] - the input file for running the benchmark
-- [benchmarks.csv][./benchmarks.csv] - a comma separated value file for recording benchmark data
-- [historical-benchmarks.csv][./historical-benchmarks.csv] - a comma separated value file for historical benchmark data
+- [input.i3d](./input.i3d) - the input file for running the benchmark
+- [benchmarks.csv](./benchmarks.csv) - a comma separated value file for recording benchmark data
+- [historical-benchmarks.csv](./historical-benchmarks.csv) - a comma separated value file for historical benchmark data
 
 The input.i3d file should be copied to your run directory for performing the benchmark, it should
 not be editted except to change the system size (nx=ny=nz) and set p_row and p_col appropriately -
@@ -22,4 +22,4 @@ If you run Xcompact3D on a new machine and are willing and able to share the dat
 you contribute to this repository.
 To do so, fork the repository, add your data to your fork and submit a pull request.
 
-For further details see [CONTRIBUTING][./CONTRIBUTING.md].
+For further details see [CONTRIBUTING](./CONTRIBUTING.md).
