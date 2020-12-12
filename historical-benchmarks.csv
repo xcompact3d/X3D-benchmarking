@@ -1,1 +1,31 @@
-Machine,Code version,Compiler,Precision,Mesh size (nx=ny=nz),n dt,Timescheme,run 1 [s],run 2 [s],run 3 [s],run avg [s]
+Machine,MPI ranks,Code version,Compiler,Precision,Mesh size (nx=ny=nz),BC type,n dt,Timescheme,run 1 [s],run 2 [s],run 3 [s],run avg [s]
+Marconi,1024,Quasincompact3D (const. coeff),,,1024,0,,,,,,9.53
+Marconi,2048,Quasincompact3D (const. coeff),,,1024,0,,,,,,4.51
+Marconi,4096,Quasincompact3D (const. coeff),,,1024,0,,,,,,1.78
+Marconi,5952,Quasincompact3D (const. coeff),,,1024,0,,,,,,1.26
+ARCHER,256,Xcompact3D v3,,,1025,1,,AB2,,,,6.24
+ARCHER,512,Xcompact3D v3,,,1025,1,,AB2,,,,3.52
+ARCHER,1024,Xcompact3D v3,,,1025,1,,AB2,,,,2.04
+ARCHER,2048,Xcompact3D v3,,,1025,1,,AB2,,,,1.21
+ARCHER,4096,Xcompact3D v3,,,1025,1,,AB2,,,,0.56
+ARCHER,8192,Xcompact3D v3,,,1025,1,,AB2,,,,0.4
+ARCHER,16384,Xcompact3D v3,,,4097,1,,AB2,,,,13.5
+ARCHER,32768,Xcompact3D v3,,,4097,1,,AB2,,,,7.5
+ARCHER,65536,Xcompact3D v3,,,4097,1,,AB2,,,,3.6
+ARCHER,98304,Xcompact3D v3,,,4097,1,,AB2,,,,2
+Hazel Hen,256,Xcompact3D v3,,,1025,1,,AB2,,,,5.5
+Hazel Hen,512,Xcompact3D v3,,,1025,1,,AB2,,,,3.26
+Hazel Hen,1024,Xcompact3D v3,,,1025,1,,AB2,,,,1.7
+Hazel Hen,2048,Xcompact3D v3,,,1025,1,,AB2,,,,1.02
+Hazel Hen,4096,Xcompact3D v3,,,1025,1,,AB2,,,,0.65
+Hazel Hen,8192,Xcompact3D v3,,,1025,1,,AB2,,,,0.41
+Hazel Hen,16384,Xcompact3D v3,,,4097,1,,AB2,,,,15
+Hazel Hen,32768,Xcompact3D v3,,,4097,1,,AB2,,,,8
+Hazel Hen,65536,Xcompact3D v3,,,4097,1,,AB2,,,,3.8
+Hazel Hen,98304,Xcompact3D v3,,,4097,1,,AB2,,,,2.5
+Mare Nostrum,256,Xcompact3D v3,,,1025,1,,AB2,,,,5.46
+Mare Nostrum,512,Xcompact3D v3,,,1025,1,,AB2,,,,3.5
+Mare Nostrum,1024,Xcompact3D v3,,,1025,1,,AB2,,,,1.45
+Mare Nostrum,2048,Xcompact3D v3,,,1025,1,,AB2,,,,0.8
+Mare Nostrum,4096,Xcompact3D v3,,,1025,1,,AB2,,,,0.42
+Mare Nostrum,8192,Xcompact3D v3,,,1025,1,,AB2,,,,0.3
