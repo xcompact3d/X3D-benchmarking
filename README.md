@@ -13,7 +13,7 @@ The input.i3d file should be copied to your run directory for performing the ben
 not be editted except to change the system size (nx=ny=nz) and set p_row and p_col appropriately -
 this ensures benchmarking is consistent across sites.
 The file benchmarks.csv is intended as a living document, and will collect the data based on the
-input defined in this repository, histroical-benchmarks.csv is intended to collect data from
+input defined in this repository, historical-benchmarks.csv is intended to collect data from
 benchmarking performed prior to the creation of this repository and as such may include incomplete
 data.
 
@@ -27,7 +27,7 @@ first and second derivatives, no IO or post-processing is performed.
 ### Adapting the Benchmark
 
 Whilst the majority of the input file should be unchanged, the variables `nx`, `ny`, `nz`, `p_row` and
-`p_col` should set appropriately
+`p_col` should be set appropriately
 - `nx=ny=nz=n` set as large as possible to fit in available memory
 - `n` should be (a combination of) power(s) of 2 plus 1, e.g. `n=129=128+1` or `n=145=128+16+1`
 - `p_row`x`p_col`=`nranks`
