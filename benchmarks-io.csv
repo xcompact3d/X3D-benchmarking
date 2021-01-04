@@ -1,0 +1,1 @@
+Machine,Code version,Compiler,FFLAGS,Precision,Mesh size (nx=ny=nz),n dt,n files [per dt],file size [GB],Timescheme,run 1 [s],run 2 [s],run 3 [s],run avg [s]
