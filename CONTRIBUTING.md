@@ -51,7 +51,7 @@ For benchmarks with IO, the following additional fields are recorded:
 ### Machine summary
 
 In addition to the benchmarking data, if you are running on a new machine, a machine summary should
-be added to [machines.org](./machines.org), this file is intended to be human, rather than machine,
+be added to [machine.org](./machine.org), this file is intended to be human, rather than machine,
 readable.
 This file records details of each machine run on that could be useful for comparing results, these
 include:
