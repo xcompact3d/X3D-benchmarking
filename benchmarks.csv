@@ -1,1 +1,5 @@
-Machine,Code version,Compiler,FFLAGS,Precision,Mesh size (nx=ny=nz),n dt,Timescheme,run 1 [s],run 2 [s],run 3 [s],run avg [s]
+Machine,Nodes,Ranks / Node,Code version,Compiler,FFLAGS,Precision,Mesh size (nx=ny=nz),n dt,Timescheme,run 1 [s],run 2 [s],run 3 [s]
+Fulhame,4,64,v3.0-153-gb9e5580,gnu-9.2/openmpi-4.0.2,=-cpp -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none,double,1025,10,AB2,31.417,31.846,31.39
+Fulhame,8,64,v3.0-153-gb9e5580,gnu-9.2/openmpi-4.0.2,=-cpp -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none,double,1025,10,AB2,9.955,9.902,10.007
+Fulhame,16,64,v3.0-153-gb9e5580,gnu-9.2/openmpi-4.0.2,=-cpp -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none,double,1025,10,AB2,5.309,5.221,5.422
+Fulhame,32,64,v3.0-153-gb9e5580,gnu-9.2/openmpi-4.0.2,=-cpp -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none,double,1025,10,AB2,2.9,2.902,2.949
