@@ -1,8 +1,8 @@
 #+TITLE: Xcompact3d benchmarking machines
 
-| Machine | Nodes | Processors       | Sockets / node | Cores / socket | SMT   | Vector width [bits] | L1 [kB]       | L2 [kB]        | L3 [MB]     | Clock speed [GHz] | Memory / socket [GB] | Peak bandwidth / node [GB/s] |
-|---------+-------+------------------+----------------+----------------+-------+---------------------+---------------+----------------+-------------+-------------------+----------------------+------------------------------|
-| Fulhame |    64 | Cavium ThunderX2 |              2 |             32 | 1,2,4 |                 128 | 32 (per core) | 256 (per core) | 32 (shared) |               2.2 | 2\times128                | 221.48 (measured [1])        |
+| Machine | Nodes | Processors       | Sockets / node | Cores / socket | SMT   | Vector width [bits] | L1 [kB]       | L2 [kB]        | L3 [MB]     | Memory / socket [GB] | Clock speed [GHz] | Node compute [(DP) GFLOPS] | Peak bandwidth / node [GB/s] |
+|---------+-------+------------------+----------------+----------------+-------+---------------------+---------------+----------------+-------------+----------------------+-------------------+----------------------------+------------------------------|
+| Fulhame |    64 | Cavium ThunderX2 |              2 |             32 | 1,2,4 |                 128 | 32 (per core) | 256 (per core) | 32 (shared) | 2\times128                |               2.2 |                     1126.4 | 221.48 (measured [1])        |
 
 * References
 

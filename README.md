@@ -5,6 +5,7 @@ group, it will also standardise the run setup and collection of data for future 
 
 There are four main files in the repository:
 - [input.i3d](./input.i3d) - the input file for running the benchmark
+- [input-io.i3d](./input-io.i3d) - the input file for running the benchmark with IO
 - [benchmarks.csv](./benchmarks.csv) - a comma separated value file for recording benchmark data
 - [benchmarks-io.csv](./benchmarks-io.csv) - as above, but for recording data from benchmarks involving IO
 - [historical-benchmarks.csv](./historical-benchmarks.csv) - a comma separated value file for
@@ -25,6 +26,10 @@ boundary conditions.
 The benchmark runs for 100 timesteps using AB2 timestepping and full 6th order compact schemes for
 first and second derivatives, no IO or post-processing is performed.
 
+The file [input-io.i3d](./input-io.i3d) sets up the same case, however it runs for only 10 timesteps
+whilst writing output (`ux`,`uy`,`uz` and `p`) at each timestep, note that depending on problem size
+this will result in potentially a significant amount of disk space being used!
+
 ### Adapting the Benchmark
 
 Whilst the majority of the input file should be unchanged, the variables `nx`, `ny`, `nz`, `p_row` and
@@ -34,6 +39,20 @@ Whilst the majority of the input file should be unchanged, the variables `nx`, `
 - `p_row`x`p_col`=`nranks`
 - `p_col`>=`p_row`
 - `p_row` and `p_col` both divide into `n` exactly
+
+### Running the Benchmark
+
+To run the benchmark first build Xcompact3d, in the simplest case this entails simply running `make`
+to build with GNU compilers (assuming MPI-wrappers are available), otherwise passing different
+values of `CMP` to `make` allows building with different compilers - see the `Makefile` in the
+Xcompact3d root directory for details.
+
+With a working Xcompact3d, run on the machine to be benchmarked (copying the appropriate input file
+to the working directory, and renaming to `input.i3d`), the command to run Xcompact3d is simply
+`/path/to/xcompact3d`.
+At the end of the `std` output you will find a summary of the run, in particular a line with the
+average time per timestep, this is the value that should be recorded for the benchmark, for more
+information on how to submit your results see [CONTRIBUTING](./CONTRIBUTING.md).
 
 ## Contributing
 
