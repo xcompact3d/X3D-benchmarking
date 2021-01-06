@@ -3,7 +3,7 @@
 This repository is intended to collect publicly available benchmarking data from the Xcompact3D user
 group, it will also standardise the run setup and collection of data for future benchmarks.
 
-There are four main files in the repository:
+There are five main files in the repository:
 - [input.i3d](./input.i3d) - the input file for running the benchmark
 - [input-io.i3d](./input-io.i3d) - the input file for running the benchmark with IO
 - [benchmarks.csv](./benchmarks.csv) - a comma separated value file for recording benchmark data
