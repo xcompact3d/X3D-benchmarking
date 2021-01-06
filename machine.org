@@ -1,0 +1,5 @@
+#+TITLE: Xcompact3d benchmarking machines
+
+| Machine | Nodes | Processors       | Sockets / node | Cores / socket | SMT   | Clock speed [GHz] | Memory / socket [GB] | Peak bandwidth / node [GB/s] |
+|---------+-------+------------------+----------------+----------------+-------+-------------------+----------------------+------------------------------|
+| Fulhame |    64 | Cavium ThunderX2 |              2 |             32 | 1,2,4 |                   | 2\times128                |                              |
