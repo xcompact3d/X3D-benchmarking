@@ -28,7 +28,7 @@ The columns record:
 - a label to identify a series of runs, the suggested format is `MACHINE-TAG-DATE` where `MACHINE`
   is a contraction of the machine name, `TAG` is some identifier associated with the runs and `DATE`
   is in the format `YYYYMMDD`, e.g. the set of runs performed on Fulhame on 4th January 2021 and
-  built with `-O3` are labelled `FHM-O3-20210104`.
+  built with `gfortran v9.2` are labelled `FHM-GNU9-20210104`.
 - the number of compute nodes used for the run
 - number of `MPI` ranks per node
 - the number of `SMT` threads used in a run (also known as HyperThreading)
