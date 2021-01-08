@@ -1,5 +1,5 @@
-Machine,Label,Nodes,Ranks / Node,SMT,Code version,Compiler,FFLAGS,FFT,Precision,Mesh size,n dt,Timescheme,run 1 [s],run 2 [s],run 3 [s]
-Fulhame,FHM-GNU9-20210104,4,64,1,v3.0-153-gb9e5580,gnu-9.2/openmpi-4.0.2,-cpp -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none,generic,double,1025,10,AB2,31.417,31.846,31.39
-Fulhame,FHM-GNU9-20210104,8,64,1,v3.0-153-gb9e5580,gnu-9.2/openmpi-4.0.2,-cpp -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none,generic,double,1025,10,AB2,9.955,9.902,10.007
-Fulhame,FHM-GNU9-20210104,16,64,1,v3.0-153-gb9e5580,gnu-9.2/openmpi-4.0.2,-cpp -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none,generic,double,1025,10,AB2,5.309,5.221,5.422
-Fulhame,FHM-GNU9-20210104,32,64,1,v3.0-153-gb9e5580,gnu-9.2/openmpi-4.0.2,-cpp -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none,generic,double,1025,10,AB2,2.9,2.902,2.949
+Machine,Label,Nodes,Ranks / Node,SMT,Code version,Compiler,FFLAGS,FFT,Precision,Mesh size,prow,pcol,n dt,Timescheme,run 1 [s],run 2 [s],run 3 [s]
+Fulhame,FHM-GNU9-20210104,4,64,1,v3.0-153-gb9e5580,gnu-9.2/openmpi-4.0.2,#NAME?,generic,double,1025,16,16,10,AB2,31.417,31.846,31.39
+Fulhame,FHM-GNU9-20210104,8,64,1,v3.0-153-gb9e5580,gnu-9.2/openmpi-4.0.2,#NAME?,generic,double,1025,16,32,10,AB2,9.955,9.902,10.007
+Fulhame,FHM-GNU9-20210104,16,64,1,v3.0-153-gb9e5580,gnu-9.2/openmpi-4.0.2,#NAME?,generic,double,1025,32,32,10,AB2,5.309,5.221,5.422
+Fulhame,FHM-GNU9-20210104,32,64,1,v3.0-153-gb9e5580,gnu-9.2/openmpi-4.0.2,#NAME?,generic,double,1025,32,64,10,AB2,2.9,2.902,2.949
